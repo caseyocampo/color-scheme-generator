@@ -103,6 +103,10 @@ footer p {
     width: 25%;
 }
 
+.row-top .color-picker:hover,
+.row-top .color-picker:focus,
+.row-top .color-selector:hover,
+.row-top .color-selector:focus,
 .row-top .color-button:hover,
 .row-top .color-button:focus {
     cursor: pointer;
@@ -114,7 +118,6 @@ footer p {
 
 .color-col {
     background: white;
-    /* border: 1px solid black; */
     height: 30vh;
     max-height: 415px;
     width: 20%;
