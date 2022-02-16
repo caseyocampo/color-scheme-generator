@@ -90,7 +90,6 @@ footer p {
     font-size: 16px;
     padding: 10px;
     width: 55%;
-    /* -webkit-appearance: none; */
     -moz-appearance: none;
 }
 
@@ -115,7 +114,7 @@ footer p {
 
 .color-col {
     background: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 30vh;
     max-height: 415px;
     width: 20%;
