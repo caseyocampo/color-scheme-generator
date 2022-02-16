@@ -15,20 +15,31 @@
 <body>
     <header>
         <h1>Color Scheme Generator</h1>
-        <p>A Scrimba Project</p>
+        <p><span>A Scrimba Project</span> using <a href="https://www.thecolorapi.com/docs#schemes" target="_blank">The
+                Color API</a></p>
     </header>
     <main class="grid">
         <div class="row row-top">
             <input type="color" class="color-picker">
             <select name="color-schemes" id="colorSchemes" class="color-selector">
                 <option value="monochrome" selected>Monochrome</option>
-                <option value="color">Other</option>
-                <option value="color">Other</option>
-                <option value="color">Other</option>
+                <option value="color">Monochrome-dark</option>
+                <option value="color">Monochrome-light</option>
+                <option value="color">Analogic</option>
+                <option value="color">Complement</option>
+                <option value="color">Analogic-complement</option>
+                <option value="color">Triad</option>
             </select>
             <button class="color-button">Get color scheme</button>
         </div>
-        <div class="row row-middle">middle</div>
+
+        <div class="row row-middle">
+            <div class="color-col"></div>
+            <div class="color-col"></div>
+            <div class="color-col"></div>
+            <div class="color-col"></div>
+            <div class="color-col"></div>
+        </div>
         <div class="row row-bottom">bottom</div>
 
 
