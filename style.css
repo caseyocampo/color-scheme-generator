@@ -43,6 +43,12 @@ a {
     text-decoration: underline;
 }
 
+footer p {
+    color: var(--colorSecondary);
+    font-size: 14px;
+    text-align: center;
+}
+
 .grid {
     display: grid;
     margin: 2em auto;
