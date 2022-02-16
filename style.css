@@ -15,7 +15,7 @@ body {
     box-sizing: border-box;
     color: var(--colorPrimary);
     font-family: 'Inter', sans-serif;
-    margin: 0 3em;
+    margin: 0 2em;
 }
 
 header {
@@ -66,6 +66,7 @@ a {
 .row-top > * {
     border-radius: 4px;
     height: 43px;
+    max-height: 100%;
 }
 
 .row-top .color-picker {
@@ -81,7 +82,7 @@ a {
     border: 1px solid #d1d5db;
     color: var(--colorSecondary);
     font-size: 16px;
-    padding: 9px 13px;
+    padding: 10px;
     width: 55%;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -93,6 +94,7 @@ a {
     color: var(--colorPrimary);
     font-size: 12px;
     font-weight: 500;
+    padding: 3px;
     width: 25%;
 }
 

@@ -21,17 +21,17 @@
     </header>
     <main class="grid">
         <div class="row row-top">
-            <input type="color" class="color-picker">
-            <select name="color-schemes" id="colorSchemes" class="color-selector">
+            <input type="color" class="color-picker" id="seedColor">
+            <select name="color-schemes" id="colorScheme" class="color-selector">
                 <option value="monochrome" selected>Monochrome</option>
-                <option value="color">Monochrome-dark</option>
-                <option value="color">Monochrome-light</option>
-                <option value="color">Analogic</option>
-                <option value="color">Complement</option>
-                <option value="color">Analogic-complement</option>
-                <option value="color">Triad</option>
+                <option value="monochrome-dark<">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
             </select>
-            <button class="color-button">Get color scheme</button>
+            <button class="color-button" id="getSchemeColorBtn">Get color scheme</button>
         </div>
 
         <div class="row row-middle">
