@@ -81,7 +81,7 @@ a {
         var(--colorBluePrimary);
     border: 1px solid #d1d5db;
     color: var(--colorSecondary);
-    font-size: 16px;
+    font-size: clamp(12px, 3vw, 16px);
     padding: 10px;
     width: 55%;
     -webkit-appearance: none;
@@ -133,7 +133,7 @@ a {
 }
 
 @media (max-width: 550px) {
-    .api-credit {
+    header p span {
         display: block;
     }
 }
