@@ -81,7 +81,7 @@ a {
         var(--colorBluePrimary);
     border: 1px solid #d1d5db;
     color: var(--colorSecondary);
-    font-size: clamp(12px, 3vw, 16px);
+    font-size: 16px;
     padding: 10px;
     width: 55%;
     -webkit-appearance: none;
@@ -108,7 +108,7 @@ a {
 }
 
 .color-col {
-    background: pink;
+    background: white;
     border: 1px solid black;
     height: 30vh;
     max-height: 415px;
@@ -135,5 +135,14 @@ a {
 @media (max-width: 550px) {
     header p span {
         display: block;
+    }
+    .row-top {
+        flex-wrap: wrap;
+    }
+    .row-top .color-selector {
+        width: 75%;
+    }
+    .row-top .color-button {
+        width: 100%;
     }
 }
