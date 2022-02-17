@@ -4,17 +4,16 @@ getSchemeColorBtn.addEventListener('click', getSchemeColor)
 function getSchemeColor() {
     const seedColor = document.getElementById('seedColor').value.slice(1, 7)
     const colorScheme = document.getElementById('colorScheme').value
-    const numOfHexDigits = 6
-    let hex1 = document.getElementById('hex1')
-    let hex2 = document.getElementById('hex2')
-    let hex3 = document.getElementById('hex3')
-    let hex4 = document.getElementById('hex4')
-    let hex5 = document.getElementById('hex5')
-    let hexBg1 = document.getElementById('hexBg1')
-    let hexBg2 = document.getElementById('hexBg2')
-    let hexBg3 = document.getElementById('hexBg3')
-    let hexBg4 = document.getElementById('hexBg4')
-    let hexBg5 = document.getElementById('hexBg5')
+    const hex1 = document.getElementById('hex1')
+    const hex2 = document.getElementById('hex2')
+    const hex3 = document.getElementById('hex3')
+    const hex4 = document.getElementById('hex4')
+    const hex5 = document.getElementById('hex5')
+    const hexBg1 = document.getElementById('hexBg1')
+    const hexBg2 = document.getElementById('hexBg2')
+    const hexBg3 = document.getElementById('hexBg3')
+    const hexBg4 = document.getElementById('hexBg4')
+    const hexBg5 = document.getElementById('hexBg5')
 
     fetch(
         `https://www.thecolorapi.com/scheme?hex=${seedColor}&mode=${colorScheme}&count=5`
